@@ -56,12 +56,20 @@
 			children = (
 				5EF0C30E20737BF20091842B /* AppDelegate.swift */,
 				5EF0C31020737BF20091842B /* ViewController.swift */,
-				5EF0C31220737BF20091842B /* Main.storyboard */,
-				5EF0C31520737BF40091842B /* Assets.xcassets */,
-				5EF0C31720737BF40091842B /* LaunchScreen.storyboard */,
-				5EF0C31A20737BF40091842B /* Info.plist */,
+				5EF0C32020737DF60091842B /* Other */,
 			);
 			path = CapturingVideo;
+			sourceTree = "<group>";
+		};
+		5EF0C32020737DF60091842B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0C31520737BF40091842B /* Assets.xcassets */,
+				5EF0C31A20737BF40091842B /* Info.plist */,
+				5EF0C31720737BF40091842B /* LaunchScreen.storyboard */,
+				5EF0C31220737BF20091842B /* Main.storyboard */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,7 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BT7NEHF4NA;
-				INFOPLIST_FILE = CapturingVideo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CapturingVideo/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BT7NEHF4NA;
-				INFOPLIST_FILE = CapturingVideo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CapturingVideo/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
