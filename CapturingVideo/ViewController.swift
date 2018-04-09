@@ -24,7 +24,7 @@ class ViewController: UIViewController, AVCaptureFileOutputRecordingDelegate {
     // Output
     var captureMovieFileOutput: AVCaptureMovieFileOutput?
     
-    // Logick
+    // Logic
     var recording: Bool = false
     
     override func viewDidLoad() {
